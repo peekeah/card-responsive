@@ -1,0 +1,72 @@
+.card-content {
+    background: #1c1938;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 28px;
+    /* width: 400px; */
+}
+section {
+    bakground: hsl(233deg 46% 7%);
+    color:hsl(240deg 8% 88%);
+    display: flex;
+    height: 320px;
+    max-width: 1000px;
+}
+.office-image{
+    background: url("https://api.time.com/wp-content/uploads/2019/06/the-office.jpg?quality=85&w=1024&h=512&crop=1"),
+    hsl(276deg 69% 67%);
+    height: 320px;
+    width: 980px;
+    background-blend-mode: luminosity;
+    background-size: cover;
+}
+
+.card-social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-count {
+    margin-bottom: 0;
+}
+.card-count-title{
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 12px;
+    color: hsl(245deg 11% 54%);
+}
+.insights{
+    color: hsl(276deg 69% 67%);
+}
+
+.card-info {
+      font-sixe: 14px;
+      font-weight: 300;
+      color: hsl(245deg 11% 54%);
+}
+
+
+@media (max-width: 900px){
+    .card-content {
+        background: #2dd827;
+    }
+}
+
+@media (max-width: 800px){
+    .card-content {
+        background: #db30d2;
+    }
+}
+
+@media (max-width: 700px){
+    .card-content {
+        background: #db30d2;
+    }
+}
+
+@media (max-width: 600px){
+    .card-content {
+        background: #3825eb;
+    }
+}
+
+
